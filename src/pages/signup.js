@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 import PropTypes from 'prop-types';
-import AppIcon from '../images/icon.png';
+import AppIcon from '../images/bookface.jpeg';
 import { Link } from 'react-router-dom';
 
 // MUI Stuff
@@ -65,7 +65,7 @@ class signup extends Component {
         <Grid item sm>
           <img src={AppIcon} alt="monkey" className={classes.image} />
           <Typography variant="h2" className={classes.pageTitle}>
-            SignUp
+            Signup
           </Typography>
           <form noValidate onSubmit={this.handleSubmit}>
             <TextField
@@ -128,7 +128,7 @@ class signup extends Component {
               className={classes.button}
               disabled={loading}
             >
-              SignUp
+              Signup
               {loading && (
                 <CircularProgress size={30} className={classes.progress} />
               )}

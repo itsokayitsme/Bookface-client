@@ -25,6 +25,7 @@ const theme = createMuiTheme(themeObject);
 
 axios.defaults.baseURL =
   'https://europe-west1-socialape-d081e.cloudfunctions.net/api';
+    // 'https://us-central1-boxwood-harmony-315520.cloudfunctions.net/api';
 
 const token = localStorage.FBIdToken;
 if (token) {

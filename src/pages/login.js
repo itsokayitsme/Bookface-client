@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 import PropTypes from 'prop-types';
-import AppIcon from '../images/icon.png';
+import AppIcon from '../images/bookface.jpeg';
 import { Link } from 'react-router-dom';
 
 // MUI Stuff
@@ -104,7 +104,7 @@ class login extends Component {
             </Button>
             <br />
             <small>
-              dont have an account ? sign up <Link to="/signup">here</Link>
+              Don't have an account? Sign up <Link to="/signup">here</Link>
             </small>
           </form>
         </Grid>
